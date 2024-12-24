@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="css/pico.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <title>Munamii Cakery!</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="container-fluid">
+      <nav class="">
+        <ul class="nav-logo-middle">
+          <li>
+            <details class="dropdown">
+              <summary>Theme</summary>
+              <ul dir="rtl">
+                <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                <li><a href="#" data-theme-switcher="light">Light</a></li>
+                <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="#" aria-current="page">Home</a></li>
+
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ./ Header -->
+
+    <!-- Main -->
+    <main class="container">
+      <section>
+        <nav aria-label="breadcrumb" class="nav-tree-products">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>Cupcakes</li>
+          </ul>
+        </nav>
+      </section>
+      <!-- Product listings start -->
+      <section id="myArticles" class="grid container-fluid grid-products-list">
+        <!-- Code to load data from json -->
+        <script src="js/data-loader.js"></script>
+        <article>
+          <header>Header</header>
+          <hgroup>
+            <h2>Get inspired with CSS</h2>
+            <p>How to use CSS to add glam to your <kbd>Website?</kbd></p>
+          </hgroup>
+          <footer>Footer</footer>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container">
+      <nav>
+        <ul>
+          <li>@ 2024 Bakery-lab</li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="js/minimal-theme-switcher.js"></script>
+  </body>
+</html>

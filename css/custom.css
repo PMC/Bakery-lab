@@ -1,0 +1,39 @@
+.Pacifico-font {
+  --pico-font-family: Pacifico, cursive;
+}
+
+h1 {
+  --pico-font-family: Pacifico, cursive;
+  --pico-font-weight: 400;
+  --pico-typography-spacing-vertical: 0.5rem;
+}
+
+.nav-logo-middle {
+  background-image: url(../img/munamii-logo.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.nav-tree-products {
+  font-size: initial;
+}
+
+.grid-products-list {
+  grid-template-columns: repeat(auto-fill, 28ch);
+  justify-content: center;
+}
+
+.product-card {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  img {
+    object-fit: contain;
+    object-position: 0px 0px;
+    width: 256px;
+  }
+  hgroup {
+    width: 256px;
+  }
+}
+/* gap */
