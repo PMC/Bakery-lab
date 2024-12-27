@@ -25,8 +25,8 @@
           </li>
         </ul>
         <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="cupcakes.html">Products</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cupcakes.html" aria-current="page">Products</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -36,22 +36,30 @@
 
     <!-- Main -->
     <main class="container">
-      <section class="Pacifico-font-large-100">
-        <img src="/img/munamii-logo.png" alt="Logo" />
-        <p>Hi</p>
-        <p><kbd>Welcome to Munamii Cakery!</kbd></p>
-        <p class="Pacifico-font-large-100">
-          We offer you the most delicious cakes and cupcakes for all kinds of
-          events and celebrations.
-        </p>
-        <br />
-        <mark>
-          <a href="cupcakes.html"
-            >Browse around to discover what you would like to buy.</a
-          >
-        </mark>
+      <section>
+        <nav aria-label="breadcrumb" class="nav-tree-products">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>Cupcakes</li>
+          </ul>
+        </nav>
+      </section>
+      <!-- Product listings start -->
+      <section id="myArticles" class="grid container-fluid grid-products-list">
+        <!-- Code to load data from json -->
+        <script src="js/data-loader.js"></script>
+        <article>
+          <header>Header</header>
+          <hgroup>
+            <h2>Get inspired with CSS</h2>
+            <p>How to use CSS to add glam to your <kbd>Website?</kbd></p>
+          </hgroup>
+          <footer>Footer</footer>
+        </article>
       </section>
     </main>
+
     <!-- Footer -->
     <footer class="container">
       <nav>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="css/pico.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <title>Munamii Cakery!</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="container-fluid">
+      <nav class="">
+        <ul class="nav-logo-middle">
+          <li>
+            <details class="dropdown">
+              <summary>Theme</summary>
+              <ul dir="rtl">
+                <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                <li><a href="#" data-theme-switcher="light">Light</a></li>
+                <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="cupcakes.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ./ Header -->
+
+    <!-- Main -->
+    <main class="container">
+      <section class="container-fluid">
+        <p class="Pacifico-font-large-100">
+          <kbd> Home delivery service:</kbd><br />
+          All the city of Stockholm (redacted) and Malmo (redacted) with
+          additional cost.
+        </p>
+        <p class="Pacifico-font-large-100">
+          <kbd>Place to pick up order:</kbd><br />Via la Costa Avenue. Blue Port
+          gated neighbourhood. We will send you the GPS Location via
+          WhatsApp.<br /><br />
+        </p>
+        <p class="Pacifico-font-large-100">
+          <mark class="Pacifico-font-large-100"
+            >Orders must be placed 2 days before for greater security,
+            processing and availability.<br /> </mark
+          ><mark class="Pacifico-font-large-400">
+            Tuesday to Saturday 9 a.m. at 2 p.m.</mark
+          >
+        </p>
+      </section>
+      <section class="container-fluid">
+        <form>
+          <fieldset>
+            <label>
+              First name
+              <input
+                name="first_name"
+                placeholder="First name"
+                autocomplete="given-name"
+              />
+            </label>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                autocomplete="email"
+              />
+            </label>
+            <label>
+              WhatsApp
+              <input
+                type="WhatsApp"
+                name="WhatsApp"
+                placeholder="your WhatsApp account"
+                autocomplete="WhatsApp"
+              />
+            </label>
+            <textarea
+              name="order"
+              placeholder="Enter your order here..."
+              aria-label="Enter your order here..."
+            ></textarea>
+          </fieldset>
+
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container">
+      <nav>
+        <ul>
+          <li>@ 2024 Bakery-lab</li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="js/minimal-theme-switcher.js"></script>
+  </body>
+</html>

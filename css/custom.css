@@ -2,6 +2,18 @@
   --pico-font-family: Pacifico, cursive;
 }
 
+.Pacifico-font-large-100 {
+  --pico-font-family: Pacifico, cursive;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 100;
+}
+.Pacifico-font-large-400 {
+  --pico-font-family: Pacifico, cursive;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
 h1 {
   --pico-font-family: Pacifico, cursive;
   --pico-font-weight: 400;
@@ -13,13 +25,18 @@ h1 {
   background-position: center;
   background-size: contain;
 }
+.logo-middle {
+  background-image: url(../img/munamii-logo.png);
+  background-position: center;
+  background-size: contain;
+}
 
 .nav-tree-products {
   font-size: initial;
 }
 
 .grid-products-list {
-  grid-template-columns: repeat(auto-fill, 28ch);
+  grid-template-columns: repeat(auto-fill, 40ch);
   justify-content: center;
 }
 
@@ -30,10 +47,7 @@ h1 {
   img {
     object-fit: contain;
     object-position: 0px 0px;
-    width: 256px;
-  }
-  hgroup {
-    width: 256px;
+    width: fit-content;
   }
 }
 /* gap */
