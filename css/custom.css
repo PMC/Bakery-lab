@@ -57,4 +57,10 @@ h1 {
     display: inline;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .hideTheme {
+    display: none;
+  }
+}
 /* gap */
