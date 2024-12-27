@@ -27,7 +27,7 @@ h1 {
 }
 .logo-middle {
   background-image: url(../img/munamii-logo.png);
-  background-position: center;
+  background-position: left;
   background-size: contain;
 }
 
