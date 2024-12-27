@@ -55,9 +55,7 @@ h1 {
   left: 0;
   background-color: var(--pico-background-color);
 }
-.nav-header-ul {
-  height: 40px;
-}
+
 @media screen and (max-width: 500px) {
   .hideOnMobile {
     display: none;
