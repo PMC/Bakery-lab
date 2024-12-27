@@ -50,7 +50,7 @@ h1 {
 }
 
 .nav-header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: var(--pico-background-color);
