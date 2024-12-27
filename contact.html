@@ -10,14 +10,27 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="logo-middle container-fluid">
+    <header class="logo-left container-fluid">
       <nav>
         <ul></ul>
-        <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
+        <ul class="hideOnMobile">
+          <li><a href="index.html">Home</a></li>
           <li><a href="cupcakes.html">Products</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <ul class="displayOnMobile">
+          <li>
+            <details class="dropdown">
+              <summary>Menu</summary>
+              <ul dir="rtl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cupcakes.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+              </ul>
+            </details>
+          </li>
         </ul>
       </nav>
     </header>

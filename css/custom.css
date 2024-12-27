@@ -20,12 +20,7 @@ h1 {
   --pico-typography-spacing-vertical: 0.5rem;
 }
 
-.nav-logo-middle {
-  background-image: url(../img/munamii-logo.png);
-  background-position: center;
-  background-size: contain;
-}
-.logo-middle {
+.logo-left {
   background-image: url(../img/munamii-logo.png);
   background-position: left;
   background-size: contain;
@@ -48,6 +43,18 @@ h1 {
     object-fit: contain;
     object-position: 0px 0px;
     width: fit-content;
+  }
+}
+.displayOnMobile {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .displayOnMobile {
+    display: inline;
   }
 }
 /* gap */
