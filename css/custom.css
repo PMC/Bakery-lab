@@ -14,11 +14,6 @@
   text-align: center;
   font-weight: 400;
 }
-h1 {
-  --pico-font-family: Pacifico, cursive;
-  --pico-font-weight: 400;
-  --pico-typography-spacing-vertical: 0.5rem;
-}
 
 .logo-left {
   background-image: url(../img/munamii-logo.png);
@@ -65,7 +60,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
   .hideTheme {
     display: none;
   }
