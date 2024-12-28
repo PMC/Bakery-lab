@@ -26,13 +26,14 @@
 }
 
 .grid-products-list {
-  grid-template-columns: repeat(auto-fill, 40ch);
+  grid-template-columns: repeat(auto-fill, 30ch);
   justify-content: center;
 }
 
 .product-card {
   display: grid;
   grid-template-columns: 1fr;
+  margin: 0 0 0 0;
 
   img {
     object-fit: contain;
@@ -49,6 +50,10 @@
   top: 0;
   left: 0;
   background-color: var(--pico-background-color);
+  margin-bottom: 0px;
+  padding: 1px;
+  border-radius: var(--pico-border-radius);
+  box-shadow: var(--pico-box-shadow);
 }
 
 @media screen and (max-width: 500px) {
@@ -56,7 +61,7 @@
     display: none;
   }
   .displayOnMobile {
-    display: inline;
+    display: contents;
   }
 }
 
