@@ -40,7 +40,8 @@
 
     <!-- Main -->
     <main class="container-fluid">
-      <section class="container-fluid">
+      <section class="container-fluid section-max-width">
+        <p class="Pacifico-font-large-400"><mark>Contact</mark></p>
         <p class="Pacifico-font-large-100">
           <kbd> Home delivery service:</kbd><br />
           All the city of Stockholm (redacted) and Malmo (redacted) with
@@ -60,14 +61,14 @@
           >
         </p>
       </section>
-      <section class="container-fluid">
+      <article class="container-fluid section-max-width">
         <form>
           <fieldset>
             <label>
-              First name
+              Name
               <input
-                name="first_name"
-                placeholder="First name"
+                name="full_name"
+                placeholder="Your Full Name. eg John Doe"
                 autocomplete="given-name"
               />
             </label>
@@ -76,16 +77,21 @@
               <input
                 type="email"
                 name="email"
-                placeholder="Email"
+                placeholder="Enter your email"
                 autocomplete="email"
+                aria-label="Email"
+                aria-describedby="email-helper"
               />
+              <small id="email-helper">
+                We'll never share your email with anyone else.
+              </small>
             </label>
             <label>
               WhatsApp
               <input
                 type="WhatsApp"
                 name="WhatsApp"
-                placeholder="your WhatsApp account"
+                placeholder="Enter your WhatsApp account"
                 autocomplete="WhatsApp"
               />
             </label>
@@ -96,12 +102,15 @@
                 placeholder="Enter your order here..."
                 aria-label="Enter your order here..."
               ></textarea>
+              <small
+                >Orders must be placed 2 days before for greater security,
+                processing and availability.</small
+              >
             </label>
+            <input type="submit" value="Send" />
           </fieldset>
-
-          <input type="submit" value="Send" />
         </form>
-      </section>
+      </article>
     </main>
 
     <!-- Footer -->
