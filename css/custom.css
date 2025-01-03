@@ -15,6 +15,21 @@
   font-weight: 400;
 }
 
+.social-icons {
+  object-fit: contain;
+  object-position: 0px 0px;
+  width: 1rem;
+
+  padding-left: 3px;
+
+  filter: none;
+}
+[data-theme="dark"] {
+  .social-icons {
+    filter: invert(100%);
+  }
+}
+
 .logo-left {
   background-image: url(../img/munamii-logo.png);
   background-position: left;
@@ -74,7 +89,7 @@
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   .hideTheme {
     display: none;
   }
